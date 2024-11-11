@@ -1,0 +1,10 @@
+//code to read the string with spaces from the users
+#include<stdio.h>
+#include<string.h>
+int main(){
+string name;
+printf("enter name:");
+scanf("%[^\n]", name);
+printf("Name is : %s\n", name);
+return 0;
+}
