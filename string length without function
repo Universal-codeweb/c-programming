@@ -1,0 +1,10 @@
+//code to display the length of the string without using string functions
+#include<stdio.h>
+#include<stdio.h>
+int main(){
+string name;
+printf9"enter your name:");
+scanf("%s",name);
+printf("The length of the string is %d",size(name)/size(int));
+return 0;
+}
