@@ -1,0 +1,23 @@
+// largest of three numbers 
+#include <stdio.h>
+int main(){
+    int p,q,r;
+   printf("enter three numbers p, q,r:\n");
+   scanf("%d %d %d",&p,&q,&r);
+   if(p>q && p>r)
+{
+       printf("%d is greatest of three",p);
+}
+else if(q>p && q>r)
+{ 
+printf("%d is greatest of three",q);
+} 
+else if(r>q && r>p)
+{
+printf("%d is greatest of three",r);
+}
+else
+{
+printf("all are equal");}
+return 0;
+}
