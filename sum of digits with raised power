@@ -1,0 +1,21 @@
+//sum of the digits of the number the a raised power
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int y,sum=0,x,p;
+    printf("enter any natural number: ");
+    scanf("%d",&y);
+    printf("enter the power:");
+    scanf("%d",&p);
+    while(y!=0)
+    {
+        x=y%10;
+        sum=sum+pow(x,p);
+        y=y/10;
+    }
+    
+    printf("answer = %d",sum);
+    
+ return 0;   
+}
