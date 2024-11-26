@@ -1,0 +1,20 @@
+// factorial using functions with out arguments and without return
+#include<stdio.h>
+void f()
+{
+    int n,f=1;
+    printf("enter the number or an integer:");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        f=f*i;
+        
+    }
+    printf("\nfactorial of %d=%d",n,f);
+}
+void main()
+{
+   printf("factorial is mulpliction of given number with all the number less than it \n");
+    f();
+    
+}
