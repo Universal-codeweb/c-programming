@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    float P,R,T,n;
+    printf("enter the principle,rate,time of interset for SI value\n=");
+    printf("enter the values to calculate compound interest\n=");
+    scanf("%f %f %f %f",&P,&R,&T,&n);
+    
+    float SI = (P*R*T)/100;
+    float A= P*pow((1+(R/n)),(n*T));
+    printf("simple interest= %f",SI);
+    printf("compound interest= %f", A);
+   
+    
+    return 0;
+}
