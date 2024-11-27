@@ -1,6 +1,6 @@
 //code to display the length of the string without using string functions
 #include<stdio.h>
-#include<stdio.h>
+#include<string.h>
 int main(){
 string name;
 printf("enter your name:");
