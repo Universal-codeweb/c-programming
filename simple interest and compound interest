@@ -1,3 +1,4 @@
+// to calculate the simple interest and compound interest 
 #include <stdio.h>
 #include <math.h>
 int main(){
