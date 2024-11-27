@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main(){
 string name;
-printf9"enter your name:");
+printf("enter your name:");
 scanf("%s",name);
 printf("The length of the string is %d",size(name)/size(int));
 return 0;
